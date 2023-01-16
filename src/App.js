@@ -5,10 +5,13 @@ import Offers from "./pages/Offer";
 import Profile from "./pages/Profile";
 import SignIn  from "./pages/SignIn";
 import SignUp from "./pages/SignUp";
+import Header from "./components/Header";
 
 function App() {
   return (
     <Router>
+      <Header/>
+      {/* added an component which is present in the all sites like here navigation bar is present in all the pages of our website  */}
       <Routes>
         <Route path="/" element ={<Home/>}/>
         <Route path="/profile"element ={<Profile/>}/>
