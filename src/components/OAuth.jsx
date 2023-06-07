@@ -1,4 +1,5 @@
 
+// OAuth is present in every pages hence added in component 
 import React from 'react'
 import {FcGoogle} from 'react-icons/fc'
 
